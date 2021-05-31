@@ -273,7 +273,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
+                    {BackgroundColor3 = Color3.fromRGB(38, 38, 38)}
                 ):Play()
             end
         )
@@ -313,13 +313,13 @@ function a:Window(w)
         V.Size = UDim2.new(0, 203, 0, 36)
         V.Font = Enum.Font.Gotham
         V.Text = "  " .. tostring(Q) or ""
-        V.TextColor3 = Color3.fromRGB(50, 154, 25)
+        V.TextColor3 = Color3.fromRGB(0, 154, 255)
         V.TextSize = 14.000
         V.TextXAlignment = Enum.TextXAlignment.Left
         W.Name = "ToggleStatus"
         W.Parent = U
         W.AnchorPoint = Vector2.new(0, 0.5)
-        W.BackgroundColor3 = S and Color3.fromRGB(14, 255, 110) or Color3.fromRGB(255, 44, 44)
+        W.BackgroundColor3 = S and Color3.fromRGB(255, 255, 255) or Color3.fromRGB(35, 111, 161)
         W.BorderSizePixel = 0
         W.Position = UDim2.new(0.847443342, 0, 0.5, 0)
         W.Size = UDim2.new(0, 24, 0, 24)
@@ -343,7 +343,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
+                    {BackgroundColor3 = Color3.fromRGB(38, 38, 38)}
                 ):Play()
             end
         )
@@ -386,7 +386,7 @@ function a:Window(w)
         local aa = Instance.new("TextLabel")
         a4.Name = "SliderObj"
         a4.Parent = E
-        a4.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        a4.BackgroundColor3 = Color3.fromRGB(50, 154, 25)
         a4.BorderSizePixel = 0
         a4.Position = UDim2.new(0, 0, 0.0172413792, 0)
         a4.Size = UDim2.new(0, 203, 0, 36)
