@@ -409,6 +409,7 @@ function a:Window(w)
         a6.Size = UDim2.new(0, 80, 0, 7)
         a7.CornerRadius = UDim.new(0, 4)
         a7.Name = "SliderBackRound"
+        a7.BackgroundColor3 = Color3.fromRGB(165, 214, 247)
         a7.Parent = a6
         a8.Name = "SliderPart"
         a8.Parent = a6
